@@ -2,7 +2,7 @@ import pytest
 
 from conversores import celsius_para_fahrenheit, fahrenheit_para_celsius
 
-def test_celsius_para_fahrenheit():
+def test_celsius_para_fahrenheit1():
     assert celsius_para_fahrenheit(0) == 32
 
 def test_celsius_para_fahrenheit2():
