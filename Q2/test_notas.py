@@ -15,7 +15,8 @@ def test_calcular_media1():
     assert calcular_media(9, 8, 7) == 8
 def test_calcular_media2():
     assert calcular_media(9, 8, 6) == pytest.approx(7.7)
-    
+
+#Média inválida
 def test_calcular_media_invalida():
     with pytest.raises(ValueError):
         calcular_media(10, 12, 8)
